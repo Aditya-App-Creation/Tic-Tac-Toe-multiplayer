@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:background="@drawable/img_1"
+    tools:context=".MenuActivity2">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#DA0D25"
+        android:text="SINGLE PLAYER"
+        android:textAlignment="center"
+        app:cornerRadius="50dp"
+        app:strokeColor="#ECECEC" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#1A0CDF"
+        android:text="ONLINE"
+        android:textAlignment="center"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#D11919"
+        android:text="ABOUT"
+        android:textAlignment="center"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#0611F3"
+        android:text="DUAL MODE"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#DC1212"
+        android:onClick="onClick"
+        android:text="EXIT"
+        android:textAlignment="center"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center_horizontal"
+        android:backgroundTint="#FFFFFF"
+        android:text="YOUR PROGRESS--"
+        android:textColor="#150101"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center_horizontal"
+        android:backgroundTint="#FFFFFF"
+        android:text="LOG OUT"
+        android:textColor="#150101"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center_horizontal"
+        android:backgroundTint="#DC1212"
+        android:text="---SHARE APP---- "
+        android:textColor="#0611F3"
+        app:cornerRadius="50dp" />
+
+
+</LinearLayout>

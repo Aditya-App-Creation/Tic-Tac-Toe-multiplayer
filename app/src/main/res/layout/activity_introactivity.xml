@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    tools:context=".INTROACTIVITY">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="289dp"
+        android:layout_height="234dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/progress" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="283dp"
+        android:layout_height="81dp"
+        android:text="THIS WINDOW IS UNDER PROGRESS PLS WAIT FOR NEXT UPDATE..SORRY FOR LATE"
+        android:textColor="#FDFDFD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.636" />
+</androidx.constraintlayout.widget.ConstraintLayout>
